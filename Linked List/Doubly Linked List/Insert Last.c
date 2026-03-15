@@ -27,7 +27,7 @@ struct node* insertLast(struct node *head, int data)
     ptr->data = data;
     ptr->next = NULL;
 
-    if(head == NULL)   // important condition
+    if(head == NULL)
     {
         ptr->prev = NULL;
         return ptr;
