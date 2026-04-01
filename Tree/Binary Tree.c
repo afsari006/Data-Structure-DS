@@ -99,7 +99,7 @@ int main()
     if(n<=0)
         return 0;
 
-    for(i=1; i<=n; i++)
+    for(i=1; i<n; i++)
     {
         printf("Enter value: ");
         scanf("%d", &value);
